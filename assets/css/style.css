@@ -24,6 +24,10 @@ header {
     background-color: lightcoral;
 }
 
+h1 {
+    font-family: 'Unna', serif;
+}
+
 /* Main Content */
 main {
     background-color: lightblue;
