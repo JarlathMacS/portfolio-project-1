@@ -36,7 +36,7 @@ header a {
 
 h1 {
     font-family: 'Unna', serif;
-    text-transform: uppercase;
+    text-transform: capitalize;
     color: #252525;
 }
 
@@ -47,13 +47,24 @@ h1 {
 
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
 .active {
     border-bottom: 1px solid #3a3a3a;
 
+}
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #ffffff;
+    padding: 0 1rem;
+    width: 100%;
+    box-shadow: 0 2px 2px #3a3a3a;
+    left: 0;
+    display: none;
 }
 
 /* Main Content */
@@ -67,4 +78,3 @@ main {
 footer {
     background-color: orange;
 }
-
