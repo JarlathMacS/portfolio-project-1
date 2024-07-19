@@ -41,12 +41,13 @@ header a {
 
 h1 {
     font-family: 'Unna', serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #252525;
+    letter-spacing: 2px;
 }
 
 #logo {
-    text-wrap: nowrap;
+    /* text-wrap: nowrap; */
 }
 
 #menu {
@@ -93,6 +94,7 @@ main {
     background-color: lightblue;
     /* Make main element take up any extra space, in order to push the footer down */
     flex: 1 0 auto;
+    margin-top: 74px;
 }
 
 /* Footer */
