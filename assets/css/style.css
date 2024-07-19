@@ -107,6 +107,7 @@ footer {
 
     /* Main content */
     main {
+            /* Make main element take up any extra space, in order to push the footer down */
         margin-top: 37px;
     }
 }
@@ -135,8 +136,16 @@ footer {
         display: none;
     }
 
+    #logo {
+        font-size: 200%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+
+    }
+
     /* Main content */
     main {
-        margin-top: 50.59px;
+            /* Make main element take up any extra space, in order to push the footer down */
+        margin-top: 75px;
     }
 }
