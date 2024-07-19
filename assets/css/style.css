@@ -11,8 +11,11 @@
 /* General styles */
 body {
     min-height: 100vh;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
     /* Generic project styles */
     color: #3a3a3a;
     font-family: 'Unna', serif;
@@ -30,6 +33,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    /* top: 0;
+    left: 0; */
     /* height: 74px; */
 }
 
@@ -96,9 +101,67 @@ main {
     /* Make main element take up any extra space, in order to push the footer down */
     flex: 1 0 auto;
     margin-top: 74px;
+    /* width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
+/* .main-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+
+.hero-section-content {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero-section-content p {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero-img-container {
+    display: flex;
+    width: 50%;
+
+}
+
+.hero-img-container img {
+    display: block;
+    width: 100%;
+    object-fit: contain;
+}
+
+.goals-section-items {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: blue;
+} */
+
 /* Footer */
+
+/* footer, footer ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+} */
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -117,7 +180,7 @@ main {
 
     /* Main content */
     main {
-            /* Make main element take up any extra space, in order to push the footer down */
+        /* Make main element take up any extra space, in order to push the footer down */
         margin-top: 37px;
     }
 }
@@ -155,7 +218,7 @@ main {
 
     /* Main content */
     main {
-            /* Make main element take up any extra space, in order to push the footer down */
+        /* Make main element take up any extra space, in order to push the footer down */
         margin-top: 75px;
     }
 }
