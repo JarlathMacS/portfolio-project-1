@@ -21,6 +21,12 @@ body {
     font-family: 'Unna', serif;
 }
 
+h1 {
+    font-family: 'Unna', serif;
+    text-transform: uppercase;
+    color: #252525;
+    letter-spacing: 2px;
+}
 
 /* Header */
 header {
@@ -45,16 +51,9 @@ header a {
     /* width: 100%; */
 }
 
-h1 {
-    font-family: 'Unna', serif;
-    text-transform: uppercase;
-    color: #252525;
-    letter-spacing: 2px;
-}
-
-#logo {
-    /* text-wrap: nowrap; */
-}
+/* #logo {
+    text-wrap: wrap;
+} */
 
 #menu {
     font-size: 110%;
@@ -101,10 +100,10 @@ main {
     /* Make main element take up any extra space, in order to push the footer down */
     flex: 1 0 auto;
     margin-top: 74px;
-    /* width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /* align-items: center;
     justify-content: center; */
 }
 
@@ -176,14 +175,14 @@ main {
     color: #3a3a3a;
 }
 
-@media screen and (min-width: 377px) {
+/* @media screen and (min-width: 377px) { */
 
     /* Main content */
-    main {
+    /* main { */
         /* Make main element take up any extra space, in order to push the footer down */
-        margin-top: 37px;
+        /* margin-top: 37px;
     }
-}
+} */
 
 /* Media query for tablets and larger screen sizes (768px and larger) */
 @media screen and (min-width: 768px) {
@@ -211,15 +210,14 @@ main {
 
     #logo {
         font-size: 200%;
-        line-height: 75px;
+        line-height: 50px;
         margin: 0 0.5rem;
-
     }
 
     /* Main content */
     main {
         /* Make main element take up any extra space, in order to push the footer down */
-        margin-top: 75px;
+        margin-top: 100px;
     }
 }
 
