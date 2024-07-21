@@ -21,7 +21,9 @@ body {
     font-family: 'Unna', serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
     font-family: 'Unna', serif;
     text-transform: uppercase;
     color: #252525;
@@ -120,14 +122,15 @@ main {
     background-color: rgba(241, 109, 107, .7);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 10px;
     width: 80%;
-    min-height: 200px;
-    padding-top: 40px;
+    min-height: 156px;
+    padding-top: 10px;
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -242,6 +245,12 @@ main {
     main {
         /* Make main element take up any extra space, in order to push the footer down */
         margin-top: 100px;
+    }
+
+    /* Hero */
+    #cover-text {
+        width: 300px;
+        right: 50px;
     }
 }
 
