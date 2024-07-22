@@ -17,7 +17,7 @@ body {
     /* align-items: center;
     justify-content: center; */
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #2A2B2E;
     font-family: 'Unna', serif;
 }
 
@@ -26,7 +26,7 @@ h2,
 h3 {
     font-family: 'Unna', serif;
     text-transform: uppercase;
-    color: #252525;
+    color: #000000;
     letter-spacing: 2px;
 }
 
@@ -37,7 +37,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #2A2B2E;
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -68,7 +68,7 @@ header a {
 }
 
 .active {
-    border-bottom: 1px solid #3a3a3a;
+    border-bottom: 1px solid #2A2B2E;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -77,7 +77,7 @@ nav {
     background-color: #ffffff;
     padding: 0 1rem;
     width: 100%;
-    box-shadow: 0 2px 2px #3a3a3a;
+    box-shadow: 0 2px 2px #2A2B2E;
     left: 0;
     display: none;
     top: 100%;
@@ -113,13 +113,13 @@ main {
 #hero {
     height: 600px;
     width: 100%;
-    background: url("../images/pug-hero.webp") no-repeat center center/cover;
+    background: url("../images/pug-hero.webp") no-repeat left 48% center/cover;
     position: relative;
 }
 
 #cover-text {
     /* Final rgba value sets the opacity so it is semi-transparent */
-    background-color: rgba(241, 109, 107, .7);
+    background-color: rgba(212, 175, 55, .5);
     font-size: 130%;
     position: absolute;
     bottom: 10px;
@@ -152,7 +152,7 @@ main {
 }
 
 #benefits hr {
-    border-top: 1px solid #3a3a3a;
+    border-top: 1px solid #2A2B2E;
     margin: 5px 0;
 
 }
@@ -161,6 +161,23 @@ main {
     padding: 0 20px;
 }
 
+#benefits-own-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url("../images/reasons-own-image.webp") no-repeat top center / cover;
+    margin-bottom: 20px;
+    /* Makes the square image into a circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+
+}
 /* .main-section {
     width: 100%;
     display: flex;
@@ -226,7 +243,7 @@ main {
 #social-networks i {
     font-size: 160%;
     padding: 5%;
-    color: #3a3a3a;
+    color: #2A2B2E;
 }
 
 @media screen and (min-width: 377px) {
@@ -234,7 +251,7 @@ main {
     /* Main content */
     main {
         /* Make main element take up any extra space, in order to push the footer down */
-        margin-top: 74px;
+        /* margin-top: 74px; */
     }
 }
 
@@ -285,7 +302,7 @@ main {
 @media screen and (min-width: 992px) {
 
     #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+        border-bottom: 1px solid #2A2B2E;
     }
 
 }
