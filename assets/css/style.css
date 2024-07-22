@@ -134,7 +134,7 @@ main {
     color: #ffffff;
 }
 
-/* Reasons section */
+/* Reasons to own section */
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -178,6 +178,38 @@ main {
     max-height: 300px;
 
 }
+
+/* Reasons to adopt section */
+.five-reasons {
+    padding: 15px;
+    text-align: center;
+}
+
+#adopt {
+    background: url("../images/pugs-basket.webp") no-repeat center center/cover;
+    /* Handles responsivity without the need for a media query */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#adopt div {
+    color: #ffffff;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 15px;
+    text-align: center;
+    /* This will not wrap on screens of less than 400px wide.
+    Each div will expand to fill the available space on its row */
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+
+#adopt h3 {
+    /* Override the heading color set in general styles */
+    color: #ffffff;
+}
+
 /* .main-section {
     width: 100%;
     display: flex;
