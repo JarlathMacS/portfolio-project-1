@@ -30,6 +30,10 @@ h3 {
     letter-spacing: 2px;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* Header */
 header {
     background-color: #ffffff;
@@ -208,6 +212,16 @@ main {
 #adopt h3 {
     /* Override the heading color set in general styles */
     color: #ffffff;
+}
+
+/* Gallery page */
+#photos img {
+    width: 100%;
+    line-height: 1em;
+}
+
+#photos {
+    line-height: 0;
 }
 
 /* .main-section {
