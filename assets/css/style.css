@@ -214,7 +214,7 @@ main {
     color: #ffffff;
 }
 
-/* Gallery page */
+/* Pugs page */
 #photos img {
     width: 100%;
     line-height: 1em;
@@ -302,6 +302,17 @@ main {
     }
 }
 
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* Pugs page */
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+
+}
+
 /* Media query for tablets and larger screen sizes (768px and larger) */
 @media screen and (min-width: 768px) {
 
@@ -361,6 +372,11 @@ main {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Pugs page */
+    #photos {
+        column-count: 3;
+    }
 }
 
 /* Media query for small laptops and larger screen sizes (992px and larger) */
@@ -368,6 +384,11 @@ main {
 
     #menu a:hover {
         border-bottom: 1px solid #2A2B2E;
+    }
+
+    /* Pugs page */
+    #photos {
+        column-count: 4;
     }
 
 }
