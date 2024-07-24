@@ -205,7 +205,7 @@ main {
     Each div will expand to fill the available space on its row */
     flex-basis: 200px;
     flex-grow: 1;
-    /* Creates a grid of meetup time divs over the background image */
+    /* Creates a grid of reasons to adopt divs over the background image */
     border: 2px solid white;
 }
 
@@ -222,6 +222,61 @@ main {
 
 #photos {
     line-height: 0;
+}
+
+/* Contact page */
+#contact {
+    background-image: url("../images/ringo.webp");
+    background-size: cover;
+    background-position: 42%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+}
+
+#contact-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 10px 30px 30px;
+}
+
+#contact-form > h2 {
+    color: #fafafa;
+    margin-bottom: 10px;
+}
+
+.text-input {
+    background: transparent;
+    height: 25px;
+    width: 100%;
+    margin: 5px 0 10px 0;
+    padding: 0 5px;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+}
+
+.check-boxes {
+    display: flex;
+    /* justify-content: space-between; */
+    /* width: 100%; */
+    flex-direction: column;
+    /* line-height: 18.5px;
+    flex-basis: 196px; */
+    /* align-items: baseline; */
+}
+
+.check-boxes > div {
+    /* line-height: 18.5px; */
+
+}
+
+.contact-button {
+    margin-top: 20px;
+    padding: 15px 32px;
+    border-radius: 2px;
+    background-color: #D4AF37;
+    color: #fafafa;
+    font-size: 100%;
 }
 
 /* .main-section {
@@ -376,6 +431,28 @@ main {
     /* Pugs page */
     #photos {
         column-count: 3;
+    }
+
+    /* Contact page */
+    #contact {
+        position: relative;
+        background-position: center;
+    }
+
+    #contact-form {
+        position: absolute;
+        max-width: 400px;
+        top: 30px;
+        right: 20%
+    }
+
+    .text-input:hover {
+        border-color: #D4AF37;
+    }
+
+    .contact-button:hover {
+        background-color: #fafafa;
+        color: #D4AF37;
     }
 }
 
