@@ -57,10 +57,6 @@ header a {
     /* width: 100%; */
 }
 
-/* #logo {
-    text-wrap: wrap;
-} */
-
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -102,7 +98,6 @@ nav {
 
 /* Main Content */
 main {
-    /* background-color: lightblue; */
     /* Make main element take up any extra space, in order to push the footer down */
     flex: 1 0 auto;
     margin-top: 74px;
@@ -180,7 +175,6 @@ main {
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-
 }
 
 /* Reasons to adopt section */
@@ -230,7 +224,7 @@ main {
     background-size: cover;
     background-position: 42%;
     flex-grow: 1;
-    padding: 20px 10% 0 10%;
+    padding: 20px 10% 0;
 }
 
 #contact-form {
@@ -248,7 +242,7 @@ main {
     background: transparent;
     height: 25px;
     width: 100%;
-    margin: 5px 0 10px 0;
+    margin: 5px 0 10px;
     padding: 0 5px;
     color: #fafafa;
     border: 1px solid #fafafa;
@@ -483,7 +477,7 @@ main {
         align-self: flex-start;
     }
 
-    #benefits-image {
+    #benefits-own-image {
         order: 0;
     }
 
