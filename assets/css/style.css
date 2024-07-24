@@ -260,14 +260,6 @@ main {
     /* justify-content: space-between; */
     /* width: 100%; */
     flex-direction: column;
-    /* line-height: 18.5px;
-    flex-basis: 196px; */
-    /* align-items: baseline; */
-}
-
-.check-boxes > div {
-    /* line-height: 18.5px; */
-
 }
 
 .contact-button {
