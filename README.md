@@ -6,8 +6,6 @@
 
 The Dublin Pug Rescue website is a showcase for this organization which seeks to rehome pugs anywhere on the island of Ireland.  It targets anyone who is at all interested in owning a dog, encourages rehoming or adoption, and shows a selection of pugs available.  It also allows users to register their interest whether in adoption, fostering, volunteering, or donating.
 
-The site can be accessed by this [link](https://jarlathmacs.github.io/portfolio-project-1/index.html)
-
 ![Responsive Mockup](media/dublin_pug_rescue_mockup.png)
 
 Welcome Jarlath Sweeney,
@@ -139,3 +137,7 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+
+The live link can be found here - (https://jarlathmacs.github.io/portfolio-project-1/index.html)
