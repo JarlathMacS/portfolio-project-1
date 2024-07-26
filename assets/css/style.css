@@ -419,6 +419,7 @@ main {
 @media screen and (min-width: 1200px) {
 
     /* Reasons section */
+    /* This styling is taken from the Love Running project */
     #benefits {
         display: flex;
         flex-direction: row;
