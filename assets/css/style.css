@@ -1,7 +1,7 @@
 /* Google Fonts import */
 @import url('https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
-/* Asterisk wildcard selector to override default styles added by the browser */
+/* Override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -38,7 +38,6 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    /* box-shadow: 0 2px 2px #2A2B2E; */
     display: flex;
     justify-content: space-between;
     align-items: baseline;
@@ -53,7 +52,6 @@ header a {
     padding-top: 15px;
     left: 0;
     position: relative;
-    /* background-image: url(../images/pug-logo.webp); */
 }
 
 #menu {
@@ -76,7 +74,6 @@ nav {
     background-color: skyblue;
     padding: 0 1rem;
     width: 100%;
-    /* box-shadow: 0 2px 2px #2A2B2E; */
     left: 0;
     display: none;
     top: 100%;
@@ -98,7 +95,6 @@ nav {
 
 /* Main Content */
 main {
-    /* Make main element take up any extra space, in order to push the footer down */
     flex: 1 0 auto;
     margin-top: 105px;
     display: flex;
@@ -131,10 +127,6 @@ main {
 }
 
 /* Reasons to own section */
-/* #reasons {
-    width: 90%;
-    margin: 20px auto;
-} */
 #reasons {
     width: 90%;
     margin: 20px auto;
@@ -149,11 +141,6 @@ main {
     text-align: center;
     margin-bottom: 20px;
 }
-
-/* #benefits-physical > div, #benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-} */
 
 #benefits-physical>div,
 #benefits-mental>div {
@@ -193,7 +180,6 @@ main {
     width: 90vw;
     background: url("../images/reasons-own-image.webp") no-repeat top center / cover;
     margin: 20px 0;
-    /* Makes the square image into a circle */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -205,13 +191,6 @@ main {
     text-align: center;
 }
 
-/* #adopt {
-    background: url("../images/pugs-basket.webp") no-repeat center center/cover; */
-/* Handles responsivity without the need for a media query */
-/* display: flex;
-    flex-wrap: wrap;
-} */
-
 #adopt {
     background: url("../images/pugs-basket.webp") no-repeat center center / cover;
     display: flex;
@@ -222,25 +201,11 @@ main {
     width: 100%;
 }
 
-/* #adopt div {
-    color: #ffffff;
-    background-color: rgba(19, 54, 110, .5);
-    padding: 15px;
-    text-align: center; */
-/* This will not wrap on screens of less than 400px wide.
-    Each div will expand to fill the available space on its row */
-/* flex-basis: 200px;
-    flex-grow: 1; */
-/* Creates a grid of reasons to adopt divs over the background image */
-/* border: 2px solid white;
-} */
-
 #adopt div {
     color: white;
     background-color: rgba(19, 54, 110, .5);
     padding: 15px;
     text-align: center;
-    /* flex-basis: 200px; */
     flex-grow: 1;
     border: 2px solid white;
     width: 90%;
@@ -248,7 +213,6 @@ main {
 }
 
 #adopt h3 {
-    /* Override the heading color set in general styles */
     color: white;
 }
 
@@ -312,10 +276,6 @@ main {
     color: white;
     background-color: rgba(19, 54, 110, 0.5);
     padding: 10px 30px 30px;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
 }
 
 #contact-form-response h2 {
@@ -326,27 +286,6 @@ main {
 #response-message {
     text-align: center; 
 }
-
-/* .response_text {
-    border: 1px solid var(--clr-primary-100);
-    border-radius: var(--br);
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
-  
-  .response_text p {
-    font-size: 1.2rem;
-    font-weight: bold;
-    letter-spacing: 0.1rem;
-    text-transform: uppercase;
-    color: var(--clr-primary-100);
-    text-align: center; */
-/* text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8); */
-/* } */
 
 /* Footer */
 #social-networks {
@@ -370,7 +309,6 @@ main {
     #cover-text {
         min-height: 110px;
     }
-
 }
 
 /* Media query: large or landscape phones (576px and up) */
@@ -381,7 +319,6 @@ main {
         column-count: 2;
         column-gap: 0;
     }
-
 }
 
 /* Media query for tablets and larger screen sizes (768px and larger) */
@@ -408,15 +345,8 @@ main {
         display: none;
     }
 
-    /* #logo {
-        font-size: 200%;
-        line-height: 50px;
-        margin: 0 0.5rem;
-    } */
-
     /* Main content */
     main {
-        /* Make main element take up any extra space, in order to push the footer down */
         margin-top: 110.09px;
     }
 
@@ -425,24 +355,6 @@ main {
         width: 300px;
         right: 50px;
     }
-
-    /* Reasons section */
-    /* #benefits-physical, 
-    #benefits-mental {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    #benefits-physical > div, 
-    #benefits-mental > div {
-        width: 75%;
-    }
-
-    #benefits-mental > div {
-        text-align: end;
-        align-self: flex-end;
-    } */
 
     /* Pugs page */
     #photos {
@@ -474,9 +386,11 @@ main {
 
     /* Response page */
     #contact-form-response {
+        position: absolute;
         max-width: 400px;
+        top: 30px;
+        right: 20%
     }
-
 }
 
 /* Media query for small laptops and larger screen sizes (992px and larger) */
@@ -495,7 +409,6 @@ main {
     #social-networks i:hover {
         color: #6e4b13;
     }
-
 }
 
 /* Media query: large laptops and larger (1200px and up) */
