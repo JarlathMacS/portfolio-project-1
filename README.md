@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Dublin Pug Rescue logo](media/dublin_pug_rescue_logo.png)
 
 Welcome Jarlath Sweeney,
 
